@@ -18,5 +18,6 @@ func init() {
 程序主执行方法
 */
 func main() {
+	// 使用特定的项做搜索
 	search.Run("president")
 }
