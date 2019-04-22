@@ -22,7 +22,7 @@ func Run(searchTerm string) {
 		针对这种具有两个返回值的函数（一个正常值，一个错误值），如果程序发生了错误，永远不应该使用另一个返回值。
 		否则程序可能产生更多的错误，甚至崩溃
 	*/
-	feeds, err := RerieveFeeds()
+	feeds, err := RetrieveFeeds()
 	if err != nil {
 		// 打印致命错误，并推出程序
 		log.Fatal(err)
