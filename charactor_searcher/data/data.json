@@ -135,11 +135,6 @@
 "type" : "rss"
 },
 {
-"site" : "cnn",
-"link" : "http://rss.cnn.com/rss/cnn_topstories.rss",
-"type" : "rss"
-},
-{
 "site" : "foxnews",
 "link" : "http://feeds.foxnews.com/foxnews/opinion?format=xml",
 "type" : "rss"

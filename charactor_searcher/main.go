@@ -1,6 +1,7 @@
 package main
 
 import (
+	_ "charactor_searcher/matchers"
 	"charactor_searcher/search"
 	"log"
 	"os"
